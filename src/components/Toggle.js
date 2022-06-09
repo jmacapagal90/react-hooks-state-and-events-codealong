@@ -1,7 +1,7 @@
 import React from "react";
 
-function Toggle() {
-  return <button>OFF</button>;
+function Toggle({increment}) {
+  return <button onClick={increment}>Count</button>;
 }
 
 export default Toggle;
